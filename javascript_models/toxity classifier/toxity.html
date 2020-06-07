@@ -1,0 +1,25 @@
+//pre trained model
+
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/toxicity"></script>
+<script>
+    const threshold = 0.9;
+    toxicity.load(threshold).then(model => {
+        const sentiment =  ["you are a moron"];
+        model.classify(sentiment).then(prediction => {
+            console.log(prediction);
+            for (i = 0; i <7; i++){
+                if(predictions[i].results[0].match){
+                console.log(predictions[i].label + 
+                            " was found with probability of " + 
+                            predictions[i].results[0].probabilities[1]);       
+                }
+            }
+        }) 
+    });
+</script>
+    </head>
+    <body></body>
+</html>
