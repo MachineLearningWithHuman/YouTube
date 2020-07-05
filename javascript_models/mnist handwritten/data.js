@@ -100,7 +100,7 @@ const MNIST_LABELS_PATH =
           const batchImagesArray = new Float32Array(batchSize * IMAGE_SIZE);
           const batchLabelsArray = new Uint8Array(batchSize * NUM_CLASSES);
       
-          for (let i = 0; i < batchSize; i++) {
+          for (let i =  0; i < batchSize; i++) {
             const idx = index();
       
             const image =
