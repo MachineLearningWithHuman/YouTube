@@ -22,17 +22,18 @@
 <li>Default Fallback Intent: when bot failed to understand users request</li>
 <li>Default Welcome Intent : When bot greets your user</li>
 <li>these two are default bots in your account</li>
-<img src="https://github.com/MachineLearningWithHuman/YouTube/blob/master/chatbot/image/image1.png" width="1000" height ="600">
+<img src="https://github.com/MachineLearningWithHuman/YouTube/blob/master/chatbot/image/image1.png" width="800" height ="600">
 <li>try saying hi in console and you will have response like below</li>
+<img src="https://github.com/MachineLearningWithHuman/YouTube/blob/master/chatbot/image/image2.png" width="800" height ="600">
 <li>change the default response in the response section of the intent say "Welcome to our store " or "How may i HELP YOU TODAY" any thing your wish under the hood your agent is a NLU module which will included in your project</li>
 <li>create ana intent</li>
 <li>intent are intention of the user that was captured by your agent </li>
 <li>click on the + sign in left add opening.hours in intent name</li>
 <li>great next add training phrase </li><li>What time do you open ?</li><li>Are you open right now ?</li>Are you open today ?</li>
-<li>image3</li>
+<li><img src="https://github.com/MachineLearningWithHuman/YouTube/blob/master/chatbot/image/image3.png" width="800" height ="600"></li>
 <li>In response section under text response add We are open from 10 am to 9 pm every day. Can I help you place an order ? </li>
 <li>save after the training was over try on console</li>
-<li>image 4</li>
+<li><img src="https://github.com/MachineLearningWithHuman/YouTube/blob/master/chatbot/image/image4.png" width="800" height ="600"></li>
 <li>Now we will extract data with entity</li>
 <li>create a new intent </li>
 <li>name it order pizza</li>
@@ -45,11 +46,11 @@
 <li>I'd like to order a pizza for pickup in 1 hour</li>
 <li>I want a chicken pizza</li>
 <li>I want to order a large pizza</li></li>
-<li>image5</li>
+<li><img src="https://github.com/MachineLearningWithHuman/YouTube/blob/master/chatbot/image/image5.png" width="800" height ="600"></li>
 <li>in ressponse type Great! We've placed your order for $date at $time. See you then!</li>
-<li>image6</li>
+<li><img src="https://github.com/MachineLearningWithHuman/YouTube/blob/master/chatbot/image/image6.png" width="800" height ="600"></li>
 <li>create entity size , check define synonyms</li>
-<li>image7</li>
+<li><img src="https://github.com/MachineLearningWithHuman/YouTube/blob/master/chatbot/image/image7.png" width="800" height ="600"></li>
 <li>create other values as well pizza_topping </li>
 <table style="width:100%">
 <tr>
