@@ -22,6 +22,7 @@
 <li>Default Fallback Intent: when bot failed to understand users request</li>
 <li>Default Welcome Intent : When bot greets your user</li>
 <li>these two are default bots in your account</li>
+<img src="https://github.com/MachineLearningWithHuman/YouTube/blob/master/chatbot/image/image1.png" width="1000" height ="600">
 <li>try saying hi in console and you will have response like below</li>
 <li>change the default response in the response section of the intent say "Welcome to our store " or "How may i HELP YOU TODAY" any thing your wish under the hood your agent is a NLU module which will included in your project</li>
 <li>create ana intent</li>
